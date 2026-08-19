@@ -135,8 +135,11 @@ button{
 }
 
 .jogador-icon {
-    width: 150px;
-    height: 150px;
+  width: 20vmin;       
+  max-width: 150px;    
+  height: auto;        
+  display: block;
+  object-fit: contain; 
 }
 
 p{
